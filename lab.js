@@ -75,7 +75,7 @@ let rain = false
 60-80 AND raining, let one wear a rain-jacket
 60 or below, let one wear a jacket and carry an umbrella
 */
-if (rain === true && temperature >= 80){
+/*if (rain === true && temperature >= 80){
   console.log ("Wear a t-shirt and take an umbrella")
 }
 else if(rain===true && temperature >60){
@@ -93,7 +93,7 @@ else if (rain === false && temperature >60){
 else if (rain === false && temperature <60){
   console.log("wear a jacket")
 }
-
+*/
 
 ////////// PROBLEM 5 //////////
 
@@ -101,7 +101,11 @@ else if (rain === false && temperature <60){
   Create a for-loop that runs 10 times, and on each iteration logs the word 'hello'.
 */
 
-//CODE HERE
+//
+
+for (i=0; i < 10; i++){
+  console.log("Hello")
+}
 
 
 ////////// PROBLEM 6 //////////

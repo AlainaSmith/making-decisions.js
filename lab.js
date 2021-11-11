@@ -116,8 +116,9 @@ for (i=0; i < 10; i++){
   Create a for-loop that runs 10 times, logging the numbers 1 through 10. Ex, on the first iteration it would log 1, on the second iteration it would log 2.
 */
 
-for (i=1; i < 11; i++)
+for (i=1; i < 11; i++){
 console.log(i)
+}
 
 
 ////////// PROBLEM 7 //////////
@@ -126,7 +127,7 @@ console.log(i)
   Create a for-loop that logs the numbers 0 through 10 backwards. Ex, on the first iteration it would log 10, on the second iteration it would log 9.
 */
 
- for(i=10;i> -1;i--){
+ for(i=10; i > -1; i--){
   console.log(i)
 }
 
@@ -134,14 +135,21 @@ console.log(i)
 
 ////////// PROBLEM 8 //////////
 
-//let score = 0
-//let passingScore = 7
+
 
 /*
-  Create a while-loop that logs "Your score is not high enough" while the score variable above is below passingScore. In each iteration of the loop, increase the score by one. If your code is successful, you will see your logged statement 7 times.
+  Create a while-loop that logs "Your score is not high enough" 
+  while the score variable above is below passingScore. 
+  In each iteration of the loop, increase the score by one. 
+  If your code is successful, you will see your logged statement 7 times.
 */
+let score = 0
+let passingScore = 7
 
-//CODE HERE
+while (score < 7 ){
+  score++
+  console.log("Your score is not high enough")
+}
 
 ////////// INTERMEDIATE PROBLEMS //////////
 

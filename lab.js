@@ -6,14 +6,14 @@
   If it is not, console log "Coding has its challenges."
 */
 
-let lovesCode = true;
+let lovesCode = true
 
 if (lovesCode){
-  console.log('I love to code!');
+  console.log('I love to code!')
 }
 else {
-  console.log('Coding has its challenges');
-}*/
+  console.log('Coding has its challenges')
+}
 
 // For problems 2-3 use the following lines of code:
 
@@ -37,7 +37,7 @@ else if (amysAge < brittanisAge){
 }
 else{
   console.log('Amy and Brittani are the same age')
-}*/
+}
 
 
 ////////// PROBLEM 3 //////////
@@ -55,7 +55,7 @@ if (amysBirthYear>brittanisBirthYear){
 else if(amysBirthYear===brittanisBirthYear){
   console.log("Amy & Brittani were born in the same year")
 }
-*/
+
 
 ////////// PROBLEM 4 //////////
 
@@ -95,7 +95,7 @@ else if (rain === false && temperature >60){
 else if (rain === false && temperature <60){
   console.log("wear a jacket")
 }
-*/
+
 
 ////////// PROBLEM 5 //////////
 
@@ -105,16 +105,16 @@ else if (rain === false && temperature <60){
 
 //
 
-for (i=0; i < 10; i++){
+for (i=0; i< 10; i++){
   console.log("Hello")
 }
-
 
 ////////// PROBLEM 6 //////////
 
 /*
   Create a for-loop that runs 10 times, logging the numbers 1 through 10. Ex, on the first iteration it would log 1, on the second iteration it would log 2.
 */
+
 
 for (i=1; i < 11; i++){
 console.log(i)
@@ -124,13 +124,13 @@ console.log(i)
 ////////// PROBLEM 7 //////////
 
 /*
-  Create a for-loop that logs the numbers 0 through 10 backwards. Ex, on the first iteration it would log 10, on the second iteration it would log 9.
+  Create a for-loop that logs the numbers 0 through 10 backwards. 
+  Ex, on the first iteration it would log 10, on the second iteration it would log 9.
 */
 
- for(i=10; i > -1; i--){
+ for(i=10; i > -1; i++){
   console.log(i)
 }
-
 
 
 ////////// PROBLEM 8 //////////
@@ -143,6 +143,7 @@ console.log(i)
   In each iteration of the loop, increase the score by one. 
   If your code is successful, you will see your logged statement 7 times.
 */
+
 let score = 0
 let passingScore = 7
 
@@ -162,15 +163,15 @@ while (score < 7 ){
 
 
 let changeMyMind = true
+
 if(changeMyMind===true){
   changeMyMind = false
+  console.log(changeMyMind)
 }else{
-  changeMyMind = false
-} changeMyMind = true
+  changeMyMind = true
+  console.log(changeMyMind)
+}
 
-
-/*
-*/
 
 ////////// PROBLEM 10 //////////
 // Try to change the value of changeMyMind (irrespective of whether it is true or false) 
@@ -179,41 +180,27 @@ if(changeMyMind===true){
   //Check to see if changeMyMind is set to true or false
 
 
-let changeMyMind = !changeMyMind
+changeMyMind = !changeMyMind
+console.log(changeMyMind)
 
-/*
-if(changeMyMind===true){
-  changeMyMind = false
-}else{
-  changeMyMind = true
-}
-*/
-/*let changeMyMind=true
-
-if(changeMyMind === true || changeMyMind === false){
-  changeMyMind = true
-}
-*/
 //NOTES
 //if were looking at it will console.log(!changeMyMind) the opposite but it wont change it.
 //Not operator. 
-/*let changeMyMind = true
-changeMyMind = !changeMyMind
-console.log(changeMyMind)
-*/
 //NOTES: lets update the changemymind varible to be opposite
-
-
-
-
-
-
 
 ////////// ADVANCED PROBLEMS //////////
 
 ////////// PROBLEM 11 //////////
 
 let z = 5
-// Create a while loop that continues to run while z is greater than 0. Within the while loop, log a countdown from the value of z to 1. Once you have logged the countdown, make sure you decrement z by 1. If your code is running properly, you should see: 5,4,3,2,1,4,3,2,1,3,2,1,2,1,1.
 
-//CODE HERE
+while (i=5, i > 0, i){
+  console.log(i)
+}
+
+***(Got an infinite loop doing this with i-- so I took it out for now.)
+
+// Create a while loop that continues to run while z is greater than 0. Within the while loop, 
+//log a countdown from the value of z to 1. Once you have logged the countdown, 
+//make sure you decrement z by 1. If your code is running properly, 
+//you should see: 5,4,3,2,1,4,3,2,1,3,2,1,2,1,1.

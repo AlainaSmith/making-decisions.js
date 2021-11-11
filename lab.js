@@ -5,7 +5,8 @@
   If it is true, console log "I love to code!"
   If it is not, console log "Coding has its challenges."
 */
-/*let lovesCode = true;
+
+let lovesCode = true;
 
 if (lovesCode){
   console.log('I love to code!');
@@ -23,7 +24,7 @@ else {
   Using an if statement and a comparison operator, create code that will check if Amy or Brittani is older, 
   and then console.log '{name} is older'. Hint: Consider what will happen if they are the same age. Handle this situation.
 */
-/*
+
 var amysAge = 29
 var brittanisAge = 34
 
@@ -45,7 +46,7 @@ else{
   Using an if statement and a comparison operator, create code that will check if Amy and Brittani were born in the same year. 
   If they were, console.log 'Amy & Brittani were born in the same year'. If they were not, console.log 'Amy & Brittani were not born in the same year'
 */
-/*var amysBirthYear = 1991
+var amysBirthYear = 1991
 var brittanisBirthYear = 1986
 
 if (amysBirthYear>brittanisBirthYear){
@@ -75,7 +76,8 @@ let rain = false
 60-80 AND raining, let one wear a rain-jacket
 60 or below, let one wear a jacket and carry an umbrella
 */
-/*if (rain === true && temperature >= 80){
+
+if (rain === true && temperature >= 80){
   console.log ("Wear a t-shirt and take an umbrella")
 }
 else if(rain===true && temperature >60){
@@ -127,10 +129,13 @@ console.log(i)
  for(i=10;i> -1;i--){
   console.log(i)
 }
-//let score = 0
-//let passingScore = 7
+
+
 
 ////////// PROBLEM 8 //////////
+
+//let score = 0
+//let passingScore = 7
 
 /*
   Create a while-loop that logs "Your score is not high enough" while the score variable above is below passingScore. In each iteration of the loop, increase the score by one. If your code is successful, you will see your logged statement 7 times.
@@ -147,12 +152,52 @@ console.log(i)
 
 */
 
-//CODE HERE
+
+let changeMyMind = true
+if(changeMyMind===true){
+  changeMyMind = false
+}else{
+  changeMyMind = false
+} changeMyMind = true
+
+
+/*
+*/
 
 ////////// PROBLEM 10 //////////
-// Try to change the value of changeMyMind (irrespective of whether it is true or false) and then console.log it's new status. It should log true. Hint: use the not operator.
+// Try to change the value of changeMyMind (irrespective of whether it is true or false) 
+//and then console.log it's new status. It should log true. Hint: use the not operator.
+//Create a variable called 'changeMyMind' and set it equal to true. 
+  //Check to see if changeMyMind is set to true or false
 
-//CODE HERE
+
+let changeMyMind = !changeMyMind
+
+/*
+if(changeMyMind===true){
+  changeMyMind = false
+}else{
+  changeMyMind = true
+}
+*/
+/*let changeMyMind=true
+
+if(changeMyMind === true || changeMyMind === false){
+  changeMyMind = true
+}
+*/
+//NOTES
+//if were looking at it will console.log(!changeMyMind) the opposite but it wont change it.
+//Not operator. 
+/*let changeMyMind = true
+changeMyMind = !changeMyMind
+console.log(changeMyMind)
+*/
+//NOTES: lets update the changemymind varible to be opposite
+
+
+
+
 
 
 

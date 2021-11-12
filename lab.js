@@ -10,8 +10,7 @@ let lovesCode = true
 
 if (lovesCode){
   console.log('I love to code!')
-}
-else {
+} else {
   console.log('Coding has its challenges')
 }
 
@@ -31,11 +30,9 @@ var brittanisAge = 34
 
 if (amysAge > brittanisAge){
   console.log('Amy is older')
-}
-else if (amysAge < brittanisAge){ 
+} else if (amysAge < brittanisAge){ 
   console.log('Brittani is older')
-}
-else{
+} else {
   console.log('Amy and Brittani are the same age')
 }
 
@@ -49,10 +46,9 @@ else{
 var amysBirthYear = 1991
 var brittanisBirthYear = 1986
 
-if (amysBirthYear>brittanisBirthYear){
+if (amysBirthYear > brittanisBirthYear){
   console.log("Amy & Brittani were not born in the same year")
-}
-else if(amysBirthYear===brittanisBirthYear){
+} else if(amysBirthYear===brittanisBirthYear){
   console.log("Amy & Brittani were born in the same year")
 }
 
@@ -80,22 +76,17 @@ let rain = false
 if (rain === true && temperature >= 80){
   console.log ("Wear a t-shirt and take an umbrella")
 }
-else if(rain===true && temperature >60){
+else if(rain===true && temperature > 60){
   console.log("wear a rain-jacket")
-}
-else if(rain===true && temperature <60){
+} else if(rain===true && temperature <60){
   console.log("wear a jacket and carry an umbrella")
-}
-else if(rain === false && temperature >=80){
+} else if(rain === false && temperature >=80){
   console.log("No shirt")
-}
-else if (rain === false && temperature >60){
+} else if (rain === false && temperature >60){
   console.log("no jacket")
-}
-else if (rain === false && temperature <60){
+} else if (rain === false && temperature <60){
   console.log("wear a jacket")
 }
-
 
 ////////// PROBLEM 5 //////////
 
@@ -103,9 +94,7 @@ else if (rain === false && temperature <60){
   Create a for-loop that runs 10 times, and on each iteration logs the word 'hello'.
 */
 
-//
-
-for (i=0; i< 10; i++){
+for (let i=0; i < 10; i++){
   console.log("Hello")
 }
 
@@ -116,7 +105,7 @@ for (i=0; i< 10; i++){
 */
 
 
-for (i=1; i < 11; i++){
+for (let i=1; i < 11; i++){
 console.log(i)
 }
 
@@ -128,10 +117,10 @@ console.log(i)
   Ex, on the first iteration it would log 10, on the second iteration it would log 9.
 */
 
- for(i=10; i > -1; i++){
+ for(let i = 10; i > 1; i--){
   console.log(i)
 }
-
+//
 
 ////////// PROBLEM 8 //////////
 
@@ -161,16 +150,19 @@ while (score < 7 ){
 
 */
 
+/* checking to see what the value is, and if that value isnt 
+  there then we move to the next thing, once it meets a true, 
+  then it will do what the function is and end end the if statement. */
 
-let changeMyMind = true
+  let changeMyMind = true
 
-if(changeMyMind===true){
-  changeMyMind = false
-  console.log(changeMyMind)
-}else{
-  changeMyMind = true
-  console.log(changeMyMind)
-}
+  if (changeMyMind === true) {
+    changeMyMind = false
+    console.log(changeMyMind)
+  } else {
+    changeMyMind = true
+    console.log(changeMyMind)
+  }
 
 
 ////////// PROBLEM 10 //////////
@@ -195,7 +187,7 @@ console.log(changeMyMind)
 let z = 5
 
 while (i=5, i > 0, i){
-  console.log(i)
+  console.log(z[i])
 }
 
 ***(Got an infinite loop doing this with i-- so I took it out for now.)
